@@ -15,3 +15,5 @@ override.tf.json
 Все файлы с расширением:
 .terraformrc
 terraform.rc
+
+new line "2.2. Основы Git"
