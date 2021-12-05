@@ -15,3 +15,5 @@ override.tf.json
 Все файлы с расширением:
 .terraformrc
 terraform.rc
+
+Добавляю строку для отправки через PyCharm
