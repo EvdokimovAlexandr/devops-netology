@@ -1,0 +1,11 @@
+[Unit]
+Description=node_export service
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+EnvironmentFile=/etc/default/node_exporter
+ExecStart=/etc/init.d/node_exporter $EXTRA_OPTS
+
+[Install]
+WantedBy=multi-user.target
