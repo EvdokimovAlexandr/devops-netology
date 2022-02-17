@@ -1,6 +1,6 @@
 **Ответ на вопрос №1:**  
 ![NET3 answer 1](routeviews.PNG)  
-**Ответ на вопрос №2:** 
+**Ответ на вопрос №2:**  
 Добавил dummy интерфейс c IP 192.168.100.2/32 с помощью netplay [00-dummy.yaml](00-dummy.yaml)  
 ![NET3 answer 2](dummy.PNG)  
 **Ответ на вопрос №3:**  
@@ -14,4 +14,4 @@
 111 - rpcbind  
 ![NET3 answer 4](udp.PNG)  
 **Ответ на вопрос №5:**   
-![NET3 answer 5](home_net.drawio.PNG)  
+![NET3 answer 5](home_net.drawio.png)  
