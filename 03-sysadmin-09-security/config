@@ -1,0 +1,7 @@
+Host vagrant_vm1
+User vagrant
+HostName 127.0.0.1
+Port 2200
+IdentityFile ~/.ssh/id_rsa_new
+
+

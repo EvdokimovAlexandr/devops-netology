@@ -1,0 +1,16 @@
+network:
+  version: 2
+  renderer: networkd
+  bridges:
+    dummy0:
+      dhcp4: no
+      dhcp6: no
+      accept-ra: no
+      interfaces: [ ]
+      addresses:
+        - 192.168.100.2/32
+      routes:
+        - to: 192.168.99.0/24
+          via: 192.168.100.2
+        - to: 192.168.98.0/24
+          via: 192.168.100.2

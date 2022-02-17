@@ -1,0 +1,14 @@
+network:
+  version: 2
+  ethernets:
+    eth0:
+      addresses:
+        - 10.0.2.15/24
+      gateway4: 10.0.2.2
+      nameservers:
+        addresses: [10.0.2.2, 8.8.8.8]
+  vlans:
+    vlan50:
+      id: 10
+      link: eth0
+      addresses: [192.168.100.50/24]

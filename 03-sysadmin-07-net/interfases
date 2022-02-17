@@ -1,0 +1,12 @@
+auto bond0
+
+iface bond0 inet static
+    address 10.29.1.11
+    netmask 255.255.255.0
+    network 10.29.1.0
+    gateway 10.29.1.254
+    slaves eth1 eth2
+    bond-mode 802.3ad
+    bond-miimon 100
+    bond-downdelay 200
+    bond-updelay 200
