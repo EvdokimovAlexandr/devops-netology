@@ -28,3 +28,13 @@ ssh-add ~\.ssh\id_rsa_new
 ![Sec answer 7](tcpdump.PNG)  
 Открыл полученный файл в wireshark:  
 ![Sec answer 7_1](wireshark.PNG)  
+**Ответ на вопрос №8:**  
+22/tcp - ssh  
+80/tcp - http  
+9929/tcp - nrip-echo  
+31337/tcp - tcpwrapped  
+![Sec answer 8](Nmap.PNG)  
+**Ответ на вопрос №9:**  
+Установил ufw, закрыл все входящие соединения открыл порты 22,80,443.  
+Включил ufw, ssh не отвалился web сервер доступен  
+![Sec answer 7](ufw.PNG)  
